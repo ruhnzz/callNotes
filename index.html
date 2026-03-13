@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h1 class="heading">New Call</h1>
+            <label for="url">Image URL</label>
+            <input type="text" name="url" placeholder="enter url">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" placeholder="enter full name">
+            <label for="town">Home Town</label>
+            <input type="text" name="town" placeholder="enter home town">
+            <label for="purpose">Purpose</label>
+            <input type="text" name="purpose" placeholder="e.g. Quick appointment note">
+
+            <label for="category">Category</label><br>
+            <input type="radio" name="category" value="Emergency" id="emergency">
+           <label for="emergency" class="emergency">Emergency</label>
+
+            <input type="radio" name="category" value="Important" id="important">
+            <label for="important" class="important">Important</label>
+
+            <input type="radio" name="category" value="Urgent" id="urgent">
+            <label for="urgent" class="urgent">Urgent</label>
+
+            <input type="radio" name="category" value="No Rush" id="norush">
+            <label for="norush" class="norush">No Rush</label>
+            <button type="submit" class="btn create-note">Create Note</button>
+            <button type="button"  class="btn close">Close</button>
+        </form>
+    </div>
+
+    
+    <div class="note-container">
+        <div class="left-icons">
+            <button type="button"  class="btn left plus">+</button>
+            <button type="button" class="btn left up">&uarr;</button>
+            <button type="button" class="btn left down">&darr; </button>
+        </div>
+        <div class="stack">
+            <div class="imgbox">
+            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdvbWVufGVufDB8fDB8fHww" alt="" class="imgstyle">
+            </div>
+            <h1 class="uname">fatima</h1>
+            <p class="info">Home town<span class="infoValue">Singapore</span></p>
+             <p class="info">Bookings<span class="infoValue">3 times</span></p>
+            <div class="notebuttons">
+                <button type="button"  class="btn note-btn">Call</button>
+                <button type="button" class="btn note-btn">Message</button>
+            </div>
+        </div>
+        <div class="right-colors">
+          <button type="button" class="left red" ></button>
+        <button type="button" class="left orange"></button>
+        <button type="button" class="left blue"></button>
+        <button type="button" class="left green"></button>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

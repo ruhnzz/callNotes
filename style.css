@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 243, 243);
+}
+.form-container{
+    border: 2px solid white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgb(180, 179, 179);
+    display: none;
+
+}
+.heading{
+    margin-bottom: 20px;
+}
+label{
+    font-weight: bold;
+}
+input{
+    display: block;
+    margin: 15px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(200, 199, 199) ;
+    width: 100%;
+
+}
+input[type="radio"]{
+    display: inline;
+    width: 5%;
+}
+
+/* .emergencyBox{
+   border: 2px solid black;
+} */
+#emergency{
+    accent-color: red;
+}
+.emergency{
+    color: red;
+    font-weight: lighter;
+    /* border: 2px solid red; */
+    padding: 3px;
+    /* border-radius: 10px; */
+}
+.important{
+    color: orange;
+    font-weight: lighter;
+}
+#important{
+    /* accent-color: orange; */
+    accent-color: #ff9800;
+}
+.urgent{
+    color: blue;
+    font-weight: lighter;
+}
+#urgent{
+    accent-color:blue;
+}
+.norush{
+    color:green;
+    font-weight: lighter;
+}
+#norush{
+    accent-color:green;
+
+}
+.btn{
+    margin: 10px 20px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.create-note{
+    color: white;
+    background-color: black;
+}
+.create-note:hover{
+    color: white;
+    background-color: red;
+    border: white;
+}
+.close{
+    color: white;
+    background-color: red;
+    border: white;
+}
+.close:hover{
+    color: white;
+    background-color: black;
+}
+/* card  styling*/
+
+.note-container{
+    /* border: 2px solid rgb(200, 199, 199); */
+    /* background-color: white; */
+    /* border-radius: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left
+{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    padding:5px;
+    background-color: white;
+     display: block;
+     border: 2px solid white;
+     box-shadow: 2px 2px 8px rgb(180, 179, 179);
+}
+.left:hover{
+     color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+.left-icons{
+        margin: 60px 20px;
+
+}
+.stack{
+    width: 30%;
+      border: 2px solid rgb(200, 199, 199);
+      background-color: white;
+      /* height: 200px; */
+      width: 400px;
+      box-shadow: 2px 2px 8px rgb(180, 179, 179);
+      border-radius: 20px;
+      padding: 10px 20px;
+}
+.imgbox{
+    border: 2px solid rgb(200, 199, 199);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px rgb(180, 179, 179);
+    margin: 10px;
+    overflow: hidden;
+}
+.imgstyle{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.right-colors{
+    margin: 60px 20px;
+
+}
+.red{
+    background-color: red;
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+.red:hover{
+    border: 2px solid red;
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+    height: 25px;
+    width: 25px;
+        margin: 5px;
+
+}
+.orange:hover{
+    border: 2px solid orange;
+    background-color: orange;
+}
+.blue{
+    background-color:blue;
+    height: 25px;
+    width: 25px;
+        margin: 5px;
+}
+.blue:hover{
+    border: 2px solid blue;
+    background-color:blue;
+}
+.green{
+    background-color: green;
+    height: 25px;
+    width: 25px;
+        margin: 5px;
+}
+.green:hover{
+    border: 2px solid green;
+    background-color: green;
+}
+.uname{
+    margin: 10px 3px;    
+}
+.info{
+    font-size: large;
+    display: flex;
+    margin-bottom: 5px;
+    /* padding: 0px 10px; */
+}
+ .infoValue{
+    margin-left: auto;
+    margin-bottom: 5px;
+
+ }
+.note-btn{
+    display: inline;
+    width: 100px;
+    margin-left:2px ;
+    border: 2px solid rgb(200, 199, 199);
+}
+.note-btn:hover{
+    color: white;
+    background-color: black;
+}
