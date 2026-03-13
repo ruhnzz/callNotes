@@ -21,7 +21,7 @@ body{
     border-radius: 15px;
     background-color: white;
     box-shadow: 2px 2px 8px rgb(180, 179, 179);
-    display: none;
+    /* display: none; */
 
 }
 .heading{
@@ -111,7 +111,8 @@ input[type="radio"]{
     /* border: 2px solid rgb(200, 199, 199); */
     /* background-color: white; */
     /* border-radius: 20px; */
-    display: flex;
+    /* display: flex; */
+    display: none;
     flex-wrap: wrap;
 }
 
